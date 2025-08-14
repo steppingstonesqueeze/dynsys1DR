@@ -1,0 +1,15 @@
+Package: dynsys1DR
+Type: Package
+Title: 1D Dynamical Systems Analysis (DSL)
+Version: 0.3.0
+Author: Girish Nathan
+Maintainer: Girish Nathan <girish.nathan@gmail.com>
+Description: Define 1D discrete maps using a compact DSL (x[n+1] ~ f(x[n], params)) and compute trajectories, bifurcation diagrams, Lyapunov exponents, and fixed-point stability.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    rlang,
+    ggplot2,
+    dplyr,
+    tibble
